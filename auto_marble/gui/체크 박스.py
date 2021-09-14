@@ -1,7 +1,8 @@
 from tkinter import *
 
 root = Tk()
-root.title("List Box")
+root.title("Check Box")
+
 root.geometry("640x480+100+100")
 
 chkvar = IntVar()   # chkvar에 int형으로 값을 저장한다
