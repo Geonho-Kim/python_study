@@ -40,8 +40,8 @@ btn_clear = Button(root, text="clear", width=5, height=2)   # 크기를 고정(�
 btn_equal = Button(root, text="=", width=5, height=2)
 btn_div = Button(root, text="/", width=5, height=2)
 btn_mul = Button(root, text="*", width=5, height=2)
-ㅁ
-btn_clear.grid(row=1, column=0, sticky=N+E+W+S, padx=3, paㅁy=3) # 내부 그림/글씨 크기의 영향을 받음
+
+btn_clear.grid(row=1, column=0, sticky=N+E+W+S, padx=3, pady=3) # 내부 그림/글씨 크기의 영향을 받음
 btn_equal.grid(row=1, column=1, sticky=N+E+W+S, padx=3, pady=3)
 btn_div.grid(row=1, column=2, sticky=N+E+W+S, padx=3, pady=3)
 btn_mul.grid(row=1, column=3, sticky=N+E+W+S, padx=3, pady=3)
